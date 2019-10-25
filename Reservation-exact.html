@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reservation</title>
+</head>
+<body>
+	<form>
+		<table align="center" frame="box">
+			<tr>
+				<th colspan="2"><label>Reservation</label></th>
+			</tr>
+			<tr>
+				<td><label>Name</label></td>
+				<td><input type="text" name="name" size="20" /></td>
+			</tr>
+			<tr>
+				<td><label>Password</label></td>
+				<td><input type="password" name="password" size="20" /></td>
+			</tr>
+			<tr>
+				<td><label>Gender</label></td>
+				<td><input type="radio" name="gender" value="Male"/><label>Male</label></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="radio" name="gender" value="Female"/><label>Female</label></td>
+			</tr>
+			<tr>
+				<td><label>Continent</label></td>
+				<td><select name="continent">
+						<option value="Please select" selected>Please select</option>
+						<option value="Africa">Africa</option>
+						<option value="Asia">Asia</option>
+						<option value="Europe">Europe</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label>Meals</label></td>
+				<td><input type="checkbox" name="Breakfast" value="Breakfast" /><label>Breakfast</label></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="checkbox" name="Lunch" value="Lunch" /><label>Lunch</label></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="checkbox" name="Dinner" value="Dinner" /><label>Dinner</label></td>
+			</tr>
+			<tr>
+				<td><label>Remark</label></td>
+				<td><textarea rows="3" cols="17" placeholder="..."></textarea></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="reset" value="Cancel"/>&nbsp;
+				<input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
